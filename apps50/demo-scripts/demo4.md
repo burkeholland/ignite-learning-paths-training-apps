@@ -32,7 +32,7 @@
 * Click on `EDIT`
 * Set the `HOST` value to the value of `HOST` from variables.txt
   - This is the host for the COSMOS DB
-* To restart, go to `Workloads > Pods` and delete the cart-api pod. K8S will restart the container.
+* To restart, go to `Workloads > Pods` and delete the `my-tt-cart-*` pod. K8S will restart the container.
 * Head back to Application and test out `Add to cart`.
 * Should work now
 
